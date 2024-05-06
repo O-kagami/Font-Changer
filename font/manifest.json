@@ -1,0 +1,13 @@
+{
+    "name": "font Changer",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Zenkaku Gothicに強制的に変更する拡張機能です。",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "css": ["mystyle.css"],
+            "js":["content.js"]
+        }
+    ]
+}
